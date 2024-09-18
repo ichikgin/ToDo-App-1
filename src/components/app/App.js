@@ -89,7 +89,6 @@ class TodoApp extends React.Component {
           filter={filter}
           editLabel={this.editLabel}
         />
-        <div>d</div>
         <Footer deleteAllDone={this.deleteAllDone} todoCount={todoCount} newFilter={this.newFilter} filter={filter} />
       </section>
     );

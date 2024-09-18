@@ -48,5 +48,8 @@
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.[js, html]": ["eslint --fix", "prettier --write"]
   }
 }

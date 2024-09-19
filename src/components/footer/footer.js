@@ -1,5 +1,3 @@
-import React from 'react';
-
 import TaskFilter from '../task-filter/task-filter';
 import './footer.css';
 
